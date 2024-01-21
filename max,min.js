@@ -23,7 +23,7 @@
 
 
 
-function maxNum(jim, dela, chinku){
+function maxNum(jim, dela, chinku) {
     let ans = Math.min(jim, dela, chinku);
     return ans;
 }

@@ -1,8 +1,8 @@
-function maxNum(array){
+function maxNum(array) {
     let largest = array[0];
-    for(let i = 0; i < array.length; i++){
+    for (let i = 0; i < array.length; i++) {
         let arrayNum = array[i];
-        if(arrayNum > largest){
+        if (arrayNum > largest) {
             largest = arrayNum;
         }
     }
@@ -16,11 +16,11 @@ console.log(maxNumAns);
 
 
 // Let's try again 
-function minNum(array){
+function minNum(array) {
     let minNum = array[0];
-    for(let i = 0; i < array.length; i++){
+    for (let i = 0; i < array.length; i++) {
         let arrayNum = array[i];
-        if(arrayNum < minNum){
+        if (arrayNum < minNum) {
             minNum = arrayNum;
         }
     }

@@ -1,8 +1,8 @@
 const firstName = 'HaSnat';
 const lastName = 'hAsnat';
-if(firstName.toLowerCase() === lastName.toLowerCase()){
+if (firstName.toLowerCase() === lastName.toLowerCase()) {
     console.log('User Input right');
 }
-else{
+else {
     console.log('User Input Wrong');
 }

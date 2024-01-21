@@ -15,11 +15,11 @@
 
 
 
-function wordDivide(sentence){
+function wordDivide(sentence) {
     let wordArray = sentence.split(' ');
     console.log(wordArray);
     let newArray = [];
-    for(let i = wordArray.length - 1; i >= 0; i--){
+    for (let i = wordArray.length - 1; i >= 0; i--) {
         let word = wordArray[i];
         newArray.push(word);
     }
