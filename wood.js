@@ -1,4 +1,4 @@
-function woodCalculator(chairQuantity, tableQuantity, bedQuantity){
+function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
     const cftPerChair = 3;
     const cftPerTable = 10;
     const cftPerBed = 50;

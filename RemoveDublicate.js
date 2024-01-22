@@ -1,8 +1,8 @@
-function removeDublicate(names){
+function removeDublicate(names) {
     let newArray = [];
-    for(let i = 0; i < names.length; i++){
+    for (let i = 0; i < names.length; i++) {
         let name = names[i];
-        if(newArray.includes(name) === false){
+        if (newArray.includes(name) === false) {
             newArray.push(name);
         }
     }
@@ -11,6 +11,6 @@ function removeDublicate(names){
 
 
 
-let sampleArray = ['Hasnat', 'Hasan', 'Himu', 'Shiri', 'Hasan','Shamim', 'Shiri', 'Hasnat', 'Rubel' ];
+let sampleArray = ['Hasnat', 'Hasan', 'Himu', 'Shiri', 'Hasan', 'Shamim', 'Shiri', 'Hasnat', 'Rubel'];
 let unicArray = removeDublicate(sampleArray);
 console.log(unicArray);
